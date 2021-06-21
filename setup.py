@@ -7,14 +7,14 @@ def readme():
 
 
 setup(
-    name='get-docker-secret',
+    name='docker-secret-getter',
     version='1.0.2',
-    description='Utility function to fetch docker secrets/envvars.',
+    description='Utility function to fetch docker secrets/envvars. Fork of https://github.com/Fischerfredl/get-docker-secret',
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url='https://github.com/fischerfredl/get-docker-secret',
-    author='Alfred Melch',
-    author_email='dev@melch.pro',
+    url='https://github.com/sajadrahimi/get-docker-secret',
+    author='Sajad Rahimi',
+    author_email='rahimisajad@outlook.com',
     license='MIT',
     classifiers=[
         'License :: OSI Approved :: MIT License',
